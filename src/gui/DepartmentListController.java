@@ -83,7 +83,7 @@ public class DepartmentListController implements Initializable {
 			Pane pane = loader.load();
 
 			Stage dialogStage = new Stage();
-			dialogStage.setTitle("Enter Department data");
+			dialogStage.setTitle("Entre com os dados do departamento");
 			dialogStage.setScene(new Scene(pane));
 			dialogStage.setResizable(false);
 			dialogStage.initOwner(parentStage);
