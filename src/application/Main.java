@@ -24,7 +24,7 @@ public class Main extends Application {
 			
 			mainScene = new Scene(scrollPane);
 			primaryStage.setScene(mainScene);
-			primaryStage.setTitle("Sample JavaFX application");
+			primaryStage.setTitle("Exemplo simples de CRUD com JavaFX");
 			primaryStage.show();
 		} catch (IOException e) {
 			e.printStackTrace();
